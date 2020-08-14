@@ -20,6 +20,7 @@ retry () {
 		printf " Waiting %d seconds before retry.\n" $interval >&2
 		sleep $interval
 		interval=$(( interval * 2 ))
+		try=$(( try + 1 ))
 	done
 }
 
