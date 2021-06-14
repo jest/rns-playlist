@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "surge": "^0.21.6"
+    "surge": "^0.23"
   }
 }
